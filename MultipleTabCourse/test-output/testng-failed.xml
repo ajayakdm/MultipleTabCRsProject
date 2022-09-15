@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="tests" name="EdgeIncognitoTest(failed)">
+    <parameter name="pw" value="Pass@1234"/>
+    <parameter name="un" value="learnercb4"/>
+    <parameter name="Browsers" value="EdgeIncognito"/>
+    <classes>
+      <class name="com.blackBoard.BBTestCases">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="CourseActivity"/>
+          <include name="startCourse"/>
+        </methods>
+      </class> <!-- com.blackBoard.BBTestCases -->
+    </classes>
+  </test> <!-- EdgeIncognitoTest(failed) -->
+  <test thread-count="5" parallel="tests" name="EdgeTest(failed)">
+    <parameter name="pw" value="Pass@1234"/>
+    <parameter name="un" value="learnercb3"/>
+    <parameter name="Browsers" value="Edge"/>
+    <classes>
+      <class name="com.blackBoard.BBTestCases">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="CourseActivity"/>
+          <include name="startCourse"/>
+        </methods>
+      </class> <!-- com.blackBoard.BBTestCases -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="ChromeIncognitoTest(failed)">
+    <parameter name="pw" value="Pass@1234"/>
+    <parameter name="un" value="learnercb2"/>
+    <parameter name="Browsers" value="chromeIncognito"/>
+    <classes>
+      <class name="com.blackBoard.BBTestCases">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="CourseActivity"/>
+          <include name="startCourse"/>
+        </methods>
+      </class> <!-- com.blackBoard.BBTestCases -->
+    </classes>
+  </test> <!-- ChromeIncognitoTest(failed) -->
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="pw" value="Pass@1234"/>
+    <parameter name="un" value="learnercb1"/>
+    <parameter name="Browsers" value="chrome"/>
+    <classes>
+      <class name="com.blackBoard.BBTestCases">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="CourseActivity"/>
+          <include name="startCourse"/>
+        </methods>
+      </class> <!-- com.blackBoard.BBTestCases -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="ChromeTest">
+  <parameter name="Browsers" value="chrome"/>
+   <parameter name="un" value="learnercb1"/>
+    <parameter name="pw" value="Pass@1234"/>
+    <classes>
+      <class name="com.blackBoard.BBTestCases"/>
+    </classes>
+  </test>
+  <test name="ChromeIncognitoTest">
+  <parameter name="Browsers" value="chromeIncognito"/>
+   <parameter name="un" value="learnercb2"/>
+    <parameter name="pw" value="Pass@1234"/>
+    <classes>
+      <class name="com.blackBoard.BBTestCases"/>
+    </classes>
+  </test>
+   <test name="EdgeTest">
+  <parameter name="Browsers" value="Edge"/>
+   <parameter name="un" value="learnercb3"/>
+    <parameter name="pw" value="Pass@1234"/>
+    <classes>
+      <class name="com.blackBoard.BBTestCases"/>
+    </classes>
+  </test>
+   <test name="EdgeIncognitoTest">
+  <parameter name="Browsers" value="EdgeIncognito"/>
+   <parameter name="un" value="learnercb4"/>
+    <parameter name="pw" value="Pass@1234"/>
+    <classes>
+      <class name="com.blackBoard.BBTestCases"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="ChromeTest">
+  <parameter name="Browsers" value="chrome"/>
+   <parameter name="un" value="ajaykadam@india.cogbooks.com"/>
+    <parameter name="pw" value="Pass@1234"/>
+    <classes>
+      <class name="com.Canvas.CanvasTestCases"/>
+    </classes>
+  </test>
+  
+   <test name="EdgeTest">
+  <parameter name="Browsers" value="Edge"/>
+  <parameter name="un" value="QAtes"/>
+  <parameter name="pw" value="Pass@123"/>
+    <classes>
+      <class name="com.Canvas.CanvasTestCases"/>
+    </classes>
+  </test>
+  <test name="chromeIncognitoTest">
+  <parameter name="Browsers" value="chromeIncognito"/>
+  <parameter name="un" value="QAte"/>
+  <parameter name="pw" value="Pass@123"/>
+    <classes>
+      <class name="com.Canvas.CanvasTestCases"/>
+    </classes>
+  </test>
+  
+  <test name="EdgeIncognitoTest">
+  <parameter name="Browsers" value="EdgeIncognito"/>
+  <parameter name="un" value="QAt"/>
+  <parameter name="pw" value="Pass@123"/>
+    <classes>
+      <class name="com.Canvas.CanvasTestCases"/>
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->
